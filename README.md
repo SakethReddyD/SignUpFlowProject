@@ -2,6 +2,16 @@
 
 This project automates the process of creating an account, signing in, and testing various scenarios on the website: [https://magento.softwaretestingboard.com/](https://magento.softwaretestingboard.com/). The automation covers positive and negative test cases to ensure the robustness of the account creation and sign-in functionalities.
 
+## Project Architecture
+This project is designed using the following principles and technologies:
+
+- **Selenium WebDriver**: For browser automation.
+- **Java**: Programming language for implementing the test scripts.
+- **Page Object Model (POM)**: To maintain a clear separation of test scripts and page element definitions.
+- **Behavior-Driven Development (BDD)**: Using Cucumber to define test scenarios in Gherkin syntax, ensuring readability and collaboration.
+- **Maven**: For project dependency management and build automation.
+- **TestNG**: For test execution and reporting.
+
 ## Project Description
 The project includes the following automated test cases:
 
@@ -71,7 +81,7 @@ The project includes the following automated test cases:
 
 ### Prerequisites
 1. Install [Git](https://git-scm.com/).
-2. Install a programming language or framework suitable for automation (e.g., Python with Selenium, Java with TestNG, etc.).
+2. Install a programming language or framework suitable for automation (e.g., Java with Selenium, Cucumber for BDD).
 3. Ensure browser drivers are installed for automation (e.g., ChromeDriver, GeckoDriver).
 
 ### Steps to Clone the Repository
@@ -91,7 +101,7 @@ The project includes the following automated test cases:
 
 ### Running the Tests
 1. Configure the test data (e.g., usernames, emails) in the appropriate configuration files.
-2. Run the automation suite using your preferred test runner (e.g., pytest, TestNG).
+2. Run the automation suite using your preferred test runner (e.g., TestNG, JUnit).
 
 ---
 
@@ -101,20 +111,7 @@ The project includes the following automated test cases:
 
 ---
 
-## Contribution
-If you wish to contribute to this project:
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature/your-feature-name
-   ```
-3. Commit your changes and push them:
-   ```bash
-   git push origin feature/your-feature-name
-   ```
-4. Create a pull request.
-
----
 
 ## Contact
-For any questions or feedback, please contact saketh.desu04@gmail.com
+For any questions or feedback, please contact saketh.desu04@gmail.com.
+
