@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AST" verbose="1">
+	<listeners>
+		<listener class-name="signupflow.testUtilities.CustomTestListeners" />
+	</listeners>
+	<test name="ASTTests">
+		<classes>
+         	<class name="signupflow.tests.signupflowtests">
+				
+			</class>
+		</classes>
+	</test>
+</suite>
+
+
+				<!--<methods>					
+					<include name="TC3_EnterInvalidNames" />	
+				</methods>-->
