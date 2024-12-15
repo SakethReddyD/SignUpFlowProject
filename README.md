@@ -37,7 +37,7 @@ src/
 │       ├── signinflowtests.java
 │       └── signupflowtests.java
 │
-└── resources/
+└── test/resources/
     ├── ComponentLib/Drivers/
     ├── testData/
         └── TestData.xlsx
