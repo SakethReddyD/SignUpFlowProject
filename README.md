@@ -12,6 +12,41 @@ This project is designed using the following principles and technologies:
 - **Maven**: For project dependency management and build automation.
 - **TestNG**: For test execution and reporting.
 
+**##Project Structure**
+```
+configs/
+
+src/
+├── main/java/signupflow/
+│   ├── pages/
+│   │   ├── homepage/
+│   │   ├── loggedinpage/
+│   │   ├── signinpage/
+│   │   └── signuppage/
+│   └── utilities/
+│       ├── DriverEventsListener.java
+│       ├── ExcelData.java
+│       ├── HelperMethods.java
+│       ├── Log.java
+│       └── Reports.java
+│
+├── test/java/signupflow/
+│   ├── testUtilities/
+│   ├── testinitializer/
+│   └── tests/
+│       ├── signinflowtests.java
+│       └── signupflowtests.java
+│
+└── resources/
+    ├── ComponentLib/Drivers/
+    ├── testData/
+        └── TestData.xlsx
+testOutput/
+testng/
+README.md
+```
+
+
 ## Project Description
 The project includes the following automated test cases:
 
@@ -110,6 +145,7 @@ The project includes the following automated test cases:
 - Logs and screenshots (if implemented) will be generated for debugging and reporting purposes.
 
 ---
+
 
 
 ## Contact
